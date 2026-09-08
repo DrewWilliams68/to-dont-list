@@ -14,7 +14,9 @@ import 'package:to_dont_list/widgets/to_do_items.dart';
 
 void main() {
   test('Item abbreviation should be first letter', () {
+    //arrange
     const item = Item(name: "add more todos");
+    //assert
     expect(item.abbrev(), "a");
   });
 
